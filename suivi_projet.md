@@ -1,20 +1,18 @@
 # Journal de bord
 
-(remplacer les items en majuscule)
 
-* TITRE PROJET
-* NOM CHEF DE PROJET
-* NOMS AUTRE MEMBRES EQUIPE
-* DATE DEBUT
+* Automatisation de la creation de machines
+* ZENASNI Wafa
+* ATQAOUI Ikram
+* 15/09/2026
 
 
 ## Séance n° 1
 
-* date - heure
-* Travail effectué
-* A faire à la prochaine séance
-* Difficultés rencontrées
-* Remarques sur la séances (membre absent, pbe technique, ...)
+* 16/09 - 13:00
+* Découverte du sujet
+* Installation Vbox, premieres commandes de test
+
 
 
 ## Séance n° 2
