@@ -4,9 +4,9 @@
 
 ## Résumé
 
-Scripts `genmv_X.bat` pilotant `VBoxManage` pour créer, lister, démarrer, arrêter et supprimer des VM sous Windows.
- Versionné de façon incrémentale (v1 → v4). 
- Ce document décrit l'installation, l'usage, les limites de ce projet.
+Scripts `genmv_X.bat` pilotant `VBoxManage` pour créer, lister, démarrer, arrêter et supprimer des VM sous Windows.\
+Versionné de façon incrémentale (v1 → v4).\
+Ce document décrit l'installation, l'usage, les limites de ce projet.
 
 ## Prérequis
 
@@ -17,7 +17,7 @@ Scripts `genmv_X.bat` pilotant `VBoxManage` pour créer, lister, démarrer, arr�
 
 ## Installation
 
-Lancer la commande: git clone https://github.com/zenaswa/projet-vbox.git
+Lancer la commande: git clone https://github.com/zenaswa/projet-vbox.git \
 Tester le fonctionnement de VBoxManage dans le repo.
 
 ## Usage
