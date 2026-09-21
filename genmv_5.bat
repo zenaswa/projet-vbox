@@ -2,7 +2,7 @@
 
 
 if "%1"=="" (
-	echo Usage: genmv_4.bat [option] [nomVM]
+	echo Usage: genmv_5.bat [option] [nomVM]
 	exit /b 1
 )
 
