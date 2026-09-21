@@ -5,7 +5,7 @@
 ## Résumé
 
 Scripts `genmv_X.bat` pilotant `VBoxManage` pour créer, lister, démarrer, arrêter et supprimer des VM sous Windows.\
-Versionné de façon incrémentale (v1 → v4).\
+Versionné de façon incrémentale (v1 à v5).\
 Ce document décrit l'installation, l'usage, les limites de ce projet.
 
 ## Prérequis
@@ -67,6 +67,23 @@ Key: creation_date, Value: 21/09/2026
 - Les VM créées manuellement n'ont pas de métadonnées.
 - `A` envoie un signal ACPI : sur VM sans OS, ne l'éteint pas réellement.
 
+## Version 5 - Démarrage PXE
+
+La version `genmv_5.bat` ajoute la configuration du démarrage réseau PXE.
+
+Lors de la création d'une VM :
+- le démarrage réseau est configuré en priorité ;
+- l'interface réseau utilise le mode NAT ;
+- le serveur TFTP intégré de VirtualBox est activé ;
+- l'adresse du serveur TFTP est `10.0.2.4` ;
+- le répertoire TFTP utilisé est `C:\TFTP` ;
+- le fichier de démarrage PXE est `pxelinux.0`.
+
+Les paramètres principaux restent :
+- système : Debian 64 bits ;
+- RAM : 4096 Mo ;
+- disque : 65536 Mo.
+
 
 ## Astuces techniques
 
@@ -77,5 +94,4 @@ Key: creation_date, Value: 21/09/2026
 
 ## Développements futurs
 
-- v5 : boot PXE
 - Support des noms entre guillemets et avec espaces via `%~2`
